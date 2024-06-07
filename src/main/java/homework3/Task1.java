@@ -11,6 +11,8 @@ public class Task1 {
         todoList[3] = "Почитать книгу";
         todoList[4] = "Убраться в квартире";
 
-        System.out.println(todoList[3]);
+        for (String toDo : todoList){
+            System.out.println(toDo);
+        }
     }
 }

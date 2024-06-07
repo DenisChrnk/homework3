@@ -5,6 +5,9 @@ public class Task2 {
 
         double [] numbers = {3.14159, 2.71828, 1.00000};
 
-        System.out.println(numbers[1]);
+        for (double num : numbers){
+            System.out.println(num);
+
+        }
     }
 }
